@@ -12,6 +12,7 @@ import { api } from './api.1';
   var [description, setdescription] = useState();
   var button = () => {
     var newMovie = {
+      
       pic,
       name,
       rating,
@@ -101,7 +102,7 @@ import { api } from './api.1';
       
       }
     })
-      .then(data => data.json()).then(data=> console.log(data))
+      .then(data => data.json()).then(data => console.log(data))
   };
   return (
     <div className="movie">
