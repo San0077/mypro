@@ -1,0 +1,1 @@
+export var api = "https://santhosh-node1.herokuapp.com"
